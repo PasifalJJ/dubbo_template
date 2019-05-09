@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="edu-eb-usercontroller:war">
+    <output-path>$PROJECT_DIR$/edu-eb-usercontroller/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>edu-eb-usercontroller</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="edu-eb-usercontroller.war">
+      <element id="artifact" artifact-name="edu-eb-usercontroller:war exploded" />
+    </root>
+  </artifact>
+</component>
